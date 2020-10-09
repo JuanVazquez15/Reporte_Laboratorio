@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Reporte_AdventureWorksDW2017", "Reporte_AdventureWorksDW2017\Reporte_AdventureWorksDW2017.rptproj", "{EDAB3940-7D61-4FDB-8312-74C0E590A13C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDAB3940-7D61-4FDB-8312-74C0E590A13C}.Debug|Default.ActiveCfg = Debug
+		{EDAB3940-7D61-4FDB-8312-74C0E590A13C}.Debug|Default.Build.0 = Debug
+		{EDAB3940-7D61-4FDB-8312-74C0E590A13C}.Debug|Default.Deploy.0 = Debug
+		{EDAB3940-7D61-4FDB-8312-74C0E590A13C}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{EDAB3940-7D61-4FDB-8312-74C0E590A13C}.DebugLocal|Default.Build.0 = DebugLocal
+		{EDAB3940-7D61-4FDB-8312-74C0E590A13C}.Release|Default.ActiveCfg = Release
+		{EDAB3940-7D61-4FDB-8312-74C0E590A13C}.Release|Default.Build.0 = Release
+		{EDAB3940-7D61-4FDB-8312-74C0E590A13C}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88C7A383-1E84-4EE6-91FD-91FF86CC8FA8}
+	EndGlobalSection
+EndGlobal
