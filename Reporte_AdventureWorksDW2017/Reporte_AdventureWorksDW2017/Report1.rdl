@@ -17,7 +17,7 @@
     <DataSet Name="DataSet1">
       <Query>
         <DataSourceName>DataSource1</DataSourceName>
-        <CommandText>SELECT        FactInternetSales.SalesOrderNumber, FactInternetSales.UnitPrice, FactInternetSales.TotalProductCost, DimCustomer.CustomerKey, DimCustomer.Title
+        <CommandText>SELECT        FactInternetSales.SalesOrderNumber, FactInternetSales.UnitPrice, FactInternetSales.TotalProductCost, DimCustomer.CustomerKey
 FROM            DimCustomer INNER JOIN
                          FactInternetSales ON DimCustomer.CustomerKey = FactInternetSales.CustomerKey</CommandText>
       </Query>
@@ -38,10 +38,6 @@ FROM            DimCustomer INNER JOIN
           <DataField>CustomerKey</DataField>
           <rd:TypeName>System.Int32</rd:TypeName>
         </Field>
-        <Field Name="Title">
-          <DataField>Title</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
       </Fields>
     </DataSet>
   </DataSets>
@@ -53,19 +49,16 @@ FROM            DimCustomer INNER JOIN
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>3.02035cm</Width>
+                  <Width>4.25759cm</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>3.02035cm</Width>
+                  <Width>4.25759cm</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>3.02035cm</Width>
+                  <Width>4.25759cm</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>2.5cm</Width>
-                </TablixColumn>
-                <TablixColumn>
-                  <Width>2.5cm</Width>
+                  <Width>3.73724cm</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
@@ -181,38 +174,6 @@ FROM            DimCustomer INNER JOIN
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox7</rd:DefaultName>
-                          <Style>
-                            <Border>
-                              <Color>LightGrey</Color>
-                              <Style>Solid</Style>
-                            </Border>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
-                    <TablixCell>
-                      <CellContents>
-                        <Textbox Name="Textbox9">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value>Title</Value>
-                                  <Style>
-                                    <FontFamily>Arial</FontFamily>
-                                  </Style>
-                                </TextRun>
-                              </TextRuns>
-                              <Style />
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>Textbox9</rd:DefaultName>
                           <Style>
                             <Border>
                               <Color>LightGrey</Color>
@@ -353,45 +314,12 @@ FROM            DimCustomer INNER JOIN
                         </Textbox>
                       </CellContents>
                     </TablixCell>
-                    <TablixCell>
-                      <CellContents>
-                        <Textbox Name="Title">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value>=Fields!Title.Value</Value>
-                                  <Style>
-                                    <FontFamily>Arial</FontFamily>
-                                  </Style>
-                                </TextRun>
-                              </TextRuns>
-                              <Style />
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>Title</rd:DefaultName>
-                          <Style>
-                            <Border>
-                              <Color>LightGrey</Color>
-                              <Style>Solid</Style>
-                            </Border>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
                   </TablixCells>
                 </TablixRow>
               </TablixRows>
             </TablixBody>
             <TablixColumnHierarchy>
               <TablixMembers>
-                <TablixMember />
                 <TablixMember />
                 <TablixMember />
                 <TablixMember />
@@ -409,9 +337,8 @@ FROM            DimCustomer INNER JOIN
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>DataSet1</DataSetName>
-            <Left>1.50495cm</Left>
             <Height>1.32912cm</Height>
-            <Width>14.06104cm</Width>
+            <Width>16.51cm</Width>
             <Style>
               <Border>
                 <Style>None</Style>
